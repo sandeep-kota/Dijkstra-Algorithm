@@ -4,6 +4,8 @@ import cv2
 import sys
 import Map
 
+import matplotlib.pyplot as plt
+
 def cart2img(idx):
 	"""
 	Converts point in Cartesian coords to Img Coords 
@@ -26,6 +28,9 @@ def main():
 	# Generate Map
 	a = rigidMap(r,c)
 
+	plt.imshow(a,cmap="gray")
+	plt.show()
+	sys.exit()
 	# Get start node
 	sx = input("Enter the start node x coordinate :")
 	sy = input("Enter the start node y coordinate :")
