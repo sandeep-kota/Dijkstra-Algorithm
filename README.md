@@ -10,7 +10,7 @@ This code was tested with the following dependencies:
 
 ## Directories list
 
-
+```
 Project2
 ├── dijkstra_point.py
 ├── dijkstra_rigid.py
@@ -18,7 +18,7 @@ Project2
 ├── pointMap.py
 ├── README.md
 └── rigidMap.py
-
+```
 
 
 ## Instructions
